@@ -90,7 +90,25 @@ class _InputTFState extends State<InputTF> {
                       child: Row(
                         children: <Widget>[
                           Container(
-                            child: Text(tx.amount.toString()),
+                            margin: EdgeInsets.symmetric(
+                              vertical: 20,
+                              horizontal: 25,
+                            ),
+                            child: Text(
+                              tx.amount.toString(),
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.purple,
+                              ),
+                            ),
+                            decoration: BoxDecoration(
+                              border: Border.all(
+                                color: Colors.purple,
+                                width: 3,
+                              ),
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            padding: EdgeInsets.all(10),
                           ),
                           Column(
                             children: <Widget>[
