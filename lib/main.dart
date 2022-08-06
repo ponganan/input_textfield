@@ -18,14 +18,14 @@ class _InputTFState extends State<InputTF> {
   final List<Transaction> transaction = [
     Transaction(
       id: 't1',
-      title: 'New Shoes000',
-      amount: 69.99,
+      title: 'New Shoes88',
+      amount: 69.00,
       date: DateTime.now(),
     ),
     Transaction(
       id: 't2',
-      title: 'shirt222',
-      amount: 190.09,
+      title: 'shirt722',
+      amount: 190.00,
       date: DateTime.now(),
     ),
     Transaction(
@@ -44,7 +44,7 @@ class _InputTFState extends State<InputTF> {
           centerTitle: true,
           elevation: 5,
           title: Text(
-            'Input_Textfield',
+            'Input Textfield 789',
             style: TextStyle(
               fontSize: 30,
               fontWeight: FontWeight.bold,
@@ -60,7 +60,7 @@ class _InputTFState extends State<InputTF> {
               children: [
                 TextField(
                   decoration: InputDecoration(
-                    labelText: ('Title'),
+                    labelText: ('Title Test'),
                   ),
                   controller: titleController,
                 ),
